@@ -1,0 +1,591 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "061591e0-fc5a-4227-9cb7-53fd8dca3981")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4c023f-eca7-4011-8ac3-71f050b458ef")
+	)
+	(junction
+		(at 124.46 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab9f805-ed6f-4db4-9c4f-a4227d253d93")
+	)
+	(junction
+		(at 112.395 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "668a67c6-7f50-4f13-84ca-fb3c24263f72")
+	)
+	(junction
+		(at 110.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "914d72a2-12c5-4bf2-862c-7d5e8936feca")
+	)
+	(bus
+		(pts
+			(xy 124.46 76.2) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061445e3-abfa-4782-84db-e774fa739cf8")
+	)
+	(bus
+		(pts
+			(xy 107.95 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140137d5-8b2e-410b-b32a-e1bfc5c018d1")
+	)
+	(bus
+		(pts
+			(xy 110.49 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d418dda-8d1c-4765-adb4-6ed190efd1c7")
+	)
+	(bus
+		(pts
+			(xy 138.43 76.2) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3479865a-ccbc-42b7-a39e-63b811251c75")
+	)
+	(bus
+		(pts
+			(xy 148.59 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6b628e-640e-413f-9a68-10766c283653")
+	)
+	(bus
+		(pts
+			(xy 112.395 63.5) (xy 112.395 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa9332d-dc29-47f1-9f0d-318070c5b9f8")
+	)
+	(bus
+		(pts
+			(xy 112.395 80.01) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdf3f03-bca4-4443-be7a-b4b7e7c48306")
+	)
+	(bus
+		(pts
+			(xy 120.65 76.2) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b113a0-e3ac-435f-8236-2f469a98e58c")
+	)
+	(bus
+		(pts
+			(xy 120.65 80.01) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85abbe33-8822-4bb0-806d-3ce76dd2f8c4")
+	)
+	(bus
+		(pts
+			(xy 107.95 80.01) (xy 112.395 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97900480-0f93-4d69-afc5-da3cfa88f99a")
+	)
+	(bus
+		(pts
+			(xy 107.95 63.5) (xy 112.395 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2a9968-9fd0-4a91-be34-a0aa2501d6ed")
+	)
+	(bus
+		(pts
+			(xy 110.49 66.675) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6078d9-4858-4cac-b60f-7da4e32e31ba")
+	)
+	(bus
+		(pts
+			(xy 124.46 87.63) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f78a3-6907-4e4d-aea7-6403d501086c")
+	)
+	(bus
+		(pts
+			(xy 107.95 66.675) (xy 110.49 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e8ec68-4c80-47e3-870a-87cd60a97f9f")
+	)
+	(bus
+		(pts
+			(xy 148.59 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb706e0-389b-4e70-ba5b-fd38e59c22af")
+	)
+	(sheet
+		(at 162.56 73.66)
+		(size 20.32 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02e83834-662d-4d65-aef0-44e2668b7a3c")
+		(property "Sheetname" "Reset"
+			(at 162.56 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 162.56 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 54.61)
+		(size 20.32 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3701420a-78ea-4de5-b3c6-56f66d13f260")
+		(property "Sheetname" "Power"
+			(at 163.83 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 163.83 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 57.15)
+		(size 35.56 19.05)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e5cf50e-a7f3-43f9-a30d-2928d224ef34")
+		(property "Sheetname" "Video"
+			(at 114.3 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video.kicad_sch"
+			(at 114.808 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" bidirectional
+			(at 124.46 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0346dae4-a3a1-4a58-aff0-5f083e30e6c9")
+		)
+		(pin "A[0..12]" input
+			(at 120.65 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd3317b5-f995-4e94-8031-c99a3a474036")
+		)
+		(pin "VDG_PA[4..7]" input
+			(at 138.43 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "209c62b8-5458-436b-9bc5-c513c48f06e4")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 90.17)
+		(size 20.955 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41b80dc0-2191-428c-bee0-e1c8383431f1")
+		(property "Sheetname" "Keyboard"
+			(at 166.37 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keybd.kicad_sch"
+			(at 166.37 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "KBD_PA[0..3]" input
+			(at 166.37 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9408f0e3-d44a-47f8-9a6c-dba0d45ef141")
+		)
+		(pin "KBD_PB[0..7]" input
+			(at 166.37 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1420955a-e3fb-473a-9426-725a5b8c3773")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 90.17)
+		(size 34.29 25.4)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69ec7c13-aeb1-42ad-9b44-b801cf6ac833")
+		(property "Sheetname" "CPU, ROMs & 8255 PIA"
+			(at 115.316 113.919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CpuRoms8255PIA.kicad_sch"
+			(at 114.3 115.697 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDG_PA[4..7]" output
+			(at 138.43 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4e770af-2a5c-47c6-bcef-58981d8b2d77")
+		)
+		(pin "A[0..15]" output
+			(at 120.65 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ee0d00c-2985-48dc-a534-8575fd7c29b5")
+		)
+		(pin "D[0..7]" bidirectional
+			(at 124.46 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b445771a-cfa7-47c1-bb14-a578f48734ed")
+		)
+		(pin "KBD_PA[0..3]" output
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "107d3dfd-34e0-4f8e-bd2a-c42bff338c42")
+		)
+		(pin "KBD_PB[0..7]" output
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5957972d-9abe-47c0-915b-2a66f58e22c0")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 57.15)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9644c68a-49cb-4066-8c2d-0b3afbbe53a4")
+		(property "Sheetname" "6522_PIA & Ports"
+			(at 82.55 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PiaPorts.kicad_sch"
+			(at 82.55 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" input
+			(at 107.95 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5902e23f-8436-4867-8b8c-8735406e5563")
+		)
+		(pin "A[0..15]" input
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18c02802-da64-4a3e-a200-24c54485575c")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 76.2)
+		(size 25.4 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e722fbcb-e918-42db-b5cc-04ae5c482f7d")
+		(property "Sheetname" "MainMemory"
+			(at 82.55 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainMem.kicad_sch"
+			(at 82.55 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" input
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "efc1c2af-aae3-4127-b23c-e6752ce60700")
+		)
+		(pin "D[0..7]" input
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9dcef778-4928-47ad-97d8-1622757572b7")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

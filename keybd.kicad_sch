@@ -1,0 +1,10409 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "abce3805-c2da-4dbc-a9a1-db07389b1862")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x12_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x12_Odd_Even"
+				(at 1.27 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x12_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 13.97)
+					(end 3.81 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -15.113)
+					(end 2.54 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -12.573)
+					(end 2.54 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 10.287)
+					(end 2.54 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 12.827)
+					(end 2.54 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 3.81)
+					(name "Pin_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -15.24 180)
+					(length 3.81)
+					(name "Pin_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Network08"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -12.7 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Network08"
+				(at 10.16 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP9"
+				(at 12.065 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network08_0_1"
+				(rectangle
+					(start -11.43 -3.175)
+					(end 8.89 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -10.922 1.524)
+					(end -9.398 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.382 1.524)
+					(end -6.858 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -7.62 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.842 1.524)
+					(end -4.318 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.302 1.524)
+					(end -1.778 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.762 1.524)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -2.54) (xy -10.16 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 1.524) (xy -10.16 2.286) (xy -7.62 2.286) (xy -7.62 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 1.524) (xy -7.62 2.286) (xy -5.08 2.286) (xy -5.08 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.524) (xy -5.08 2.286) (xy -2.54 2.286) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 2.286) (xy 0 2.286) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 2.286) (xy 2.54 2.286) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 2.286) (xy 5.08 2.286) (xy 5.08 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.524) (xy 5.08 2.286) (xy 7.62 2.286) (xy 7.62 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.778 1.524)
+					(end 3.302 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.318 1.524)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.858 1.524)
+					(end 8.382 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network08_1_1"
+				(pin passive line
+					(at -10.16 5.08 270)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 90)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 90)
+					(length 1.27)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 1.27)
+					(name "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 1.27)
+					(name "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "R5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 1.27)
+					(name "R6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 1.27)
+					(name "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 1.27)
+					(name "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "John Atom Components:7445_BCD_Atom_Keybd"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "7445_BCD_Atom_Keybd"
+				(at 15.24 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "7445_BCD_Atom_Keybd_0_0"
+				(pin power_in line
+					(at 10.16 27.94 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -44.45 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7445_BCD_Atom_Keybd_0_1"
+				(rectangle
+					(start -7.62 22.86)
+					(end 15.24 -39.37)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "7445_BCD_Atom_Keybd_1_0"
+				(text "7445\nBCD to DEC"
+					(at 3.81 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "7445_BCD_Atom_Keybd_1_1"
+				(pin open_collector line
+					(at 22.86 11.43 180)
+					(length 7.62)
+					(name "~{Q0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -29.21 180)
+					(length 7.62)
+					(name "~{Q8}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -34.29 180)
+					(length 7.62)
+					(name "~{Q9}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 30.48 270)
+					(length 7.62)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 30.48 270)
+					(length 7.62)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 30.48 270)
+					(length 7.62)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 30.48 270)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 6.35 180)
+					(length 7.62)
+					(name "~{Q1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 1.27 180)
+					(length 7.62)
+					(name "~{Q2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -3.81 180)
+					(length 7.62)
+					(name "~{Q3}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -8.89 180)
+					(length 7.62)
+					(name "~{Q4}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -13.97 180)
+					(length 7.62)
+					(name "~{Q5}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -19.05 180)
+					(length 7.62)
+					(name "~{Q6}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 22.86 -24.13 180)
+					(length 7.62)
+					(name "~{Q7}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "John Atom Components:Atom_Keyswitch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "KB"
+				(at -2.4 -0.2 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.67 0.67)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "X"
+				(at -1.27 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Atom_Keyswitch_1_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type dot)
+						(color 194 194 194 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin free line
+					(at 2.54 0 180)
+					(length 1.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 0 -2.54 90)
+					(length 1.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014e97c0-86ad-42e3-9b57-7587902b656e")
+	)
+	(junction
+		(at 137.16 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04964fe2-22e8-45da-9fe1-0f68f4311ba8")
+	)
+	(junction
+		(at 147.32 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0577b63c-248d-46bf-b2d8-28bfe3c0ae11")
+	)
+	(junction
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b3ac92-6e8d-4256-a509-1fb8ca9dd147")
+	)
+	(junction
+		(at 132.08 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dee35fd-401a-4241-8410-4902a33fae09")
+	)
+	(junction
+		(at 132.08 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f788f9-ea30-49f1-b6ef-b4e32c5f99f8")
+	)
+	(junction
+		(at 142.24 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11a40a51-aafb-4c3f-b1e5-e65d13fc0d39")
+	)
+	(junction
+		(at 154.94 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14025f85-d4fb-4e88-a73c-cd116fe463b8")
+	)
+	(junction
+		(at 139.7 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "164c8ebd-784f-4750-a668-f41a17345a41")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af5d405-e77e-4843-a2ac-736699917ce0")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2356a3a5-b325-4a92-96a0-b43e1315e439")
+	)
+	(junction
+		(at 147.32 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c33798-ce0b-48af-b0bb-42231a2c0df6")
+	)
+	(junction
+		(at 154.94 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24ecebb1-ba86-4da8-ac49-96c2a025a49b")
+	)
+	(junction
+		(at 142.24 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2500346a-fde3-4a8e-bf22-f2ffe3f2be63")
+	)
+	(junction
+		(at 139.7 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2542c7c0-e2c4-4673-abad-1690b87a325a")
+	)
+	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ca811f-e2d5-412b-a676-9ba2ff3b94eb")
+	)
+	(junction
+		(at 132.08 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f9ae44-359f-48b0-91c8-49272969716b")
+	)
+	(junction
+		(at 147.32 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2adba098-2f19-4974-988e-3336e9a17a87")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1efc1c-1b59-4fb7-ad6c-7070a46d229b")
+	)
+	(junction
+		(at 154.94 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b78606f-e663-4292-82ad-7f92fa8476ff")
+	)
+	(junction
+		(at 149.86 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b7c7517-b131-41f9-8429-07586e417d9f")
+	)
+	(junction
+		(at 142.24 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d0b114e-a658-4bda-8435-38f17fc55eaa")
+	)
+	(junction
+		(at 134.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb5bac8-9b8e-4e34-a4b6-0ae6c97be3cc")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320e4caf-2d71-4697-9dfe-0386fa1a7b3a")
+	)
+	(junction
+		(at 139.7 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32463ad3-12e8-4e5e-a3b5-252d9c9b248b")
+	)
+	(junction
+		(at 170.18 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f08b6b-35c1-419c-b4cb-e6a9941a7fe6")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3790d48a-e604-4e1d-875b-b8180118f5fd")
+	)
+	(junction
+		(at 149.86 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37b03f54-df2f-47e1-8ee8-f12aa31361eb")
+	)
+	(junction
+		(at 137.16 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c854e11-5cbc-44d0-8084-4b146b202f03")
+	)
+	(junction
+		(at 137.16 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d115c4d-aa11-4017-8380-765b95623261")
+	)
+	(junction
+		(at 129.54 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "475766eb-84a2-4ab5-81c4-c2757865f66f")
+	)
+	(junction
+		(at 127 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47be5ee8-8d05-478f-93e3-69cd8e85d703")
+	)
+	(junction
+		(at 144.78 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48470fb7-4ffd-43b9-b9d7-b7f92c0b3416")
+	)
+	(junction
+		(at 144.78 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e7aa245-fd3f-4a5e-94b0-89dd5240b151")
+	)
+	(junction
+		(at 167.64 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53515cd8-fa26-4e4c-ac00-3a776ed068bc")
+	)
+	(junction
+		(at 142.24 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54fb7966-46c0-4085-91ef-f0cd9108567e")
+	)
+	(junction
+		(at 134.62 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a07b20-aa25-4dbd-8023-839445827d9b")
+	)
+	(junction
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a6f2e0-ed50-4ce0-b77a-7b38c773014a")
+	)
+	(junction
+		(at 144.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d4bc6b-6d5a-45ee-8fc4-f9f4555fa544")
+	)
+	(junction
+		(at 129.54 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aee649e-b429-4500-b774-21cf2f55f108")
+	)
+	(junction
+		(at 129.54 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc8fd1a-b3ae-43ab-b403-1bfdaba75746")
+	)
+	(junction
+		(at 154.94 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c50e0e8-d588-4fce-aec6-165d00f7e5a3")
+	)
+	(junction
+		(at 139.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5caf12dd-9a4d-4935-80d5-eae03a603220")
+	)
+	(junction
+		(at 139.7 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd52797-4398-4742-b5f6-ea0499c06c5b")
+	)
+	(junction
+		(at 142.24 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e6f637-4325-4175-9366-395f15713de4")
+	)
+	(junction
+		(at 144.78 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "640ca5ac-3d45-4bab-b3ea-443ea1fbaa6f")
+	)
+	(junction
+		(at 142.24 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64c1a75e-7e6b-4b15-bfc8-eb705e1572e0")
+	)
+	(junction
+		(at 127 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657803ee-9505-492c-8f3b-0e9efe4f5afa")
+	)
+	(junction
+		(at 135.255 146.685)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e1a59f-c52f-4e9a-b882-2571026689ac")
+	)
+	(junction
+		(at 147.32 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6779875a-b32b-402f-bff1-253994789ad9")
+	)
+	(junction
+		(at 139.7 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9a73af-20e6-4173-9a2b-9707313b8aaa")
+	)
+	(junction
+		(at 134.62 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7095356d-8f36-4a43-a0bd-19a2630821c0")
+	)
+	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715265fa-678a-4678-b66a-74068b3fb1cc")
+	)
+	(junction
+		(at 165.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717f8ca0-6d72-4826-99d7-fe3935d55bbb")
+	)
+	(junction
+		(at 134.62 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "721e2c91-acf9-40bd-b686-c26aab64769d")
+	)
+	(junction
+		(at 149.86 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76ddc70a-998d-4a2e-b527-241373717d84")
+	)
+	(junction
+		(at 129.54 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7de12259-d08e-4b0f-9511-06a55407634b")
+	)
+	(junction
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82137839-a5af-499e-87a3-b9a81af7e07b")
+	)
+	(junction
+		(at 129.54 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "830af4a8-fd93-4449-be09-ea9d1c7e7ab9")
+	)
+	(junction
+		(at 142.24 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8658e9a3-e52b-4676-a356-cb22bb96c929")
+	)
+	(junction
+		(at 147.32 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87854c9b-b306-4a3b-854a-7f5ef5ca1bd5")
+	)
+	(junction
+		(at 149.86 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8940dce9-45ad-47d7-ad78-9fa498f9fec6")
+	)
+	(junction
+		(at 144.78 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b5d866d-d545-4fea-bd99-f132de0a55f9")
+	)
+	(junction
+		(at 137.16 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "959c8928-68ec-4fd8-99e5-25d59712ec42")
+	)
+	(junction
+		(at 139.7 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999fd45a-dbb1-4b69-93a8-80ae2de16351")
+	)
+	(junction
+		(at 127 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a404725d-7528-49af-91ec-c9c8dfa31f27")
+	)
+	(junction
+		(at 132.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a42d998e-9dca-4fa2-b5b5-85257944bad1")
+	)
+	(junction
+		(at 127 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f2f253-84b8-4556-b8c2-822baab9b2a1")
+	)
+	(junction
+		(at 129.54 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b5efcb-ca51-4514-8503-626fa334fc5f")
+	)
+	(junction
+		(at 134.62 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a65be513-4426-45a4-9b8c-fa558a7256d0")
+	)
+	(junction
+		(at 154.94 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b1a85c-d141-40a3-b874-9569297ef4ce")
+	)
+	(junction
+		(at 149.86 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa772732-8ff9-4484-8254-ecf2bb0e4042")
+	)
+	(junction
+		(at 147.32 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab96a62f-e9a0-4e50-9343-9fb2713b21da")
+	)
+	(junction
+		(at 165.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeadbdbe-8328-4d38-b158-495146b1eeb3")
+	)
+	(junction
+		(at 160.02 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc479cd-8cfe-44ab-8056-545074b5ddc4")
+	)
+	(junction
+		(at 139.7 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3615045-9a25-42a9-abe8-c1644e166743")
+	)
+	(junction
+		(at 154.94 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0060176-59b1-498e-832f-e6e71eb2ea1f")
+	)
+	(junction
+		(at 132.08 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05c7a60-1816-4482-aaef-0c1f5e6c755e")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0aa15ce-4561-4890-a4d6-d0c99f690bb8")
+	)
+	(junction
+		(at 139.7 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4d55d07-5f9c-4295-9d78-062c7738694b")
+	)
+	(junction
+		(at 137.16 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c50c8d96-91a7-4d75-aa31-5d5e01c3d4f5")
+	)
+	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c642ab17-3cdf-4316-a053-2f8671194ccc")
+	)
+	(junction
+		(at 132.08 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70847c3-a134-49d2-8ba8-fcdeb9abad8c")
+	)
+	(junction
+		(at 137.16 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf6ee591-f4f8-4217-9e4f-0388c90e4733")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fe8341-0451-4113-ae05-89165359292d")
+	)
+	(junction
+		(at 149.86 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7af759b-caf0-425e-9c9f-30d5001ce319")
+	)
+	(junction
+		(at 139.7 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d851fc02-4cff-4d06-b24a-dd7755052caf")
+	)
+	(junction
+		(at 127 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d88e02b8-c60d-48c7-99e4-93147b2df47e")
+	)
+	(junction
+		(at 154.94 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9db0948-b32c-4744-89d3-067c3baa836d")
+	)
+	(junction
+		(at 149.86 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da363d7c-9ad8-43cf-81d2-65cc6b8494af")
+	)
+	(junction
+		(at 154.94 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd85cab3-310d-4cf7-b002-e3ac359bcd3e")
+	)
+	(junction
+		(at 157.48 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de612b83-a335-4200-b122-0b1d24c52ad2")
+	)
+	(junction
+		(at 129.54 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4fca76-8609-462c-a9bc-2d991dd0e01d")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e08629fa-7a1b-48ca-b763-904700514de3")
+	)
+	(junction
+		(at 100.33 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2cf6e35-b0ba-4266-bf74-530cfd95fd6a")
+	)
+	(junction
+		(at 134.62 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e0616b-aeed-43ef-a09f-a9f1d7feca4c")
+	)
+	(junction
+		(at 137.16 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea12a06d-9cb8-4b39-a479-4bf6273e9ec9")
+	)
+	(junction
+		(at 147.32 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb03d7db-1082-40b7-8a50-f620b532e12c")
+	)
+	(junction
+		(at 142.24 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee18817b-77b3-4c2a-acc0-32389569bff9")
+	)
+	(junction
+		(at 137.16 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2a1404-03e8-4fb0-8a67-108aec8d0552")
+	)
+	(junction
+		(at 129.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efba3a0d-1990-4b0b-a814-042f3b29af8d")
+	)
+	(junction
+		(at 134.62 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd06c44-7ee4-4dba-8e2d-51b3a068d999")
+	)
+	(junction
+		(at 142.24 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f574fe-05af-42d3-80ce-165ba6f438b4")
+	)
+	(junction
+		(at 162.56 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c84f36-76ff-435a-b5a9-a567a2bf1d3d")
+	)
+	(junction
+		(at 127 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a1dc9f-0861-4c1d-af90-2879ce7c6137")
+	)
+	(junction
+		(at 149.86 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e2ea0a-e642-4857-b897-d8a20169aefb")
+	)
+	(junction
+		(at 142.24 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87c5f9f-e003-443a-b570-259347e2f09c")
+	)
+	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4b4c56-17dc-486e-91ff-598d9361fc9c")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5ff448-fdac-49ef-9b19-165f02881d93")
+	)
+	(bus_entry
+		(at 142.24 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7c246a-5fc1-4083-b03d-2c485b924c0a")
+	)
+	(bus_entry
+		(at 147.32 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d62623-058c-46ce-b5c9-3e788b369496")
+	)
+	(bus_entry
+		(at 152.4 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582008b8-6eb4-4628-adef-b51816763f02")
+	)
+	(bus_entry
+		(at 132.08 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a209364-4abb-46a9-a56a-42f713690bf3")
+	)
+	(bus_entry
+		(at 85.09 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b171913-bc09-4068-bb2c-7e92a385b5bc")
+	)
+	(bus_entry
+		(at 162.56 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3abf8d-4b81-45fb-b0ca-5451b0bd869f")
+	)
+	(bus_entry
+		(at 157.48 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc3d31f-391d-48e1-a6d9-b49732fe3f48")
+	)
+	(bus_entry
+		(at 92.71 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d1ff75-257c-4ecc-9da5-e3d799ab776c")
+	)
+	(bus_entry
+		(at 90.17 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ae713f-6638-41df-813d-dbffb365e768")
+	)
+	(bus_entry
+		(at 87.63 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13e0d3e-201f-43bb-856d-4969134d2ed3")
+	)
+	(bus_entry
+		(at 137.16 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8eeb1b4-7f71-4055-85bc-5dc0c5e7988d")
+	)
+	(bus_entry
+		(at 127 40.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec0de67-ec51-4cf9-9a7f-4aae4bcda24c")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0054080e-2386-4a73-8fff-91947145e2d6")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0061fe74-bcdd-439a-8c6f-052a7bdd204f")
+	)
+	(wire
+		(pts
+			(xy 113.03 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0281c697-b1f1-4f54-bac6-4e25f1ec3063")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d400e-c99a-4f60-b385-bec6f11b1721")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e427e8-7b48-4caf-a64b-39ae9a136e7d")
+	)
+	(bus
+		(pts
+			(xy 82.55 40.64) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cecc66-19de-4891-b9cb-6af95a89d171")
+	)
+	(wire
+		(pts
+			(xy 170.18 146.685) (xy 135.255 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bda46ac-1e04-4568-afc2-8bf3a80ae63a")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc82074-984a-48f6-8ce1-a4ce46e89a53")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff7d665-f50c-4704-9dcb-59e8b59e077d")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10171794-a74e-473e-a16b-4d04fedc888c")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11530888-2006-4fcb-9b98-5423167904cf")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12851ef7-a0d3-4911-bf8e-1efa2bfe745a")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e02f0f-646c-4c11-a86d-bb82ef88279c")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c7f307-c95f-4187-9c15-04cc7caea7ed")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fdf289-78d9-4e96-9264-5651617e07a3")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 142.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b434ba5-611c-4dd7-8093-b578354133d8")
+	)
+	(wire
+		(pts
+			(xy 132.08 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c44e52e-0749-44b3-84ce-dff4669b6a7a")
+	)
+	(wire
+		(pts
+			(xy 154.94 73.66) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215da029-5cb6-457f-b247-14caf1bd029e")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22715e67-085d-426a-81b8-1a9f620f73a4")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22de17eb-4b4b-4348-9693-101967e7b362")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ff957b-acf3-4d13-85eb-75f3e8095bd7")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258de1ec-8299-42fa-8272-e7f63ed2db7d")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269b642e-b173-49d3-a2e3-c6a70febb7de")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 157.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273ccaf5-7183-4a33-b078-5bb2fba1cd44")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ad1c5b-4b9d-4f21-83c5-a5a6c391a140")
+	)
+	(wire
+		(pts
+			(xy 147.32 116.84) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29036115-0961-46e3-ac1e-cf662cbcacfb")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29218ce5-4b7c-4178-bee4-1585825e9c19")
+	)
+	(wire
+		(pts
+			(xy 112.395 121.92) (xy 157.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297ed190-2ccb-4869-a1f2-f6bd07d2f481")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c64798b-89f7-4267-9f9d-f7c0ef0cdf9a")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df596f2-b0d1-4692-96ca-218e65cf1d64")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2ef217-f048-4bd2-9078-aa3784ac4b82")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3930e1-06ff-45c9-9e65-c092c99f0f24")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34757c6a-0062-4dd6-945f-0d3b094429eb")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c0af95-a6d3-48d6-972e-4b2f5d349c77")
+	)
+	(bus
+		(pts
+			(xy 152.4 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362bb09c-02ff-449a-9089-20c23c72bd02")
+	)
+	(wire
+		(pts
+			(xy 139.7 93.98) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c8f0de-768f-4e18-a538-ca5b4944bd65")
+	)
+	(wire
+		(pts
+			(xy 160.02 43.18) (xy 160.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36feb279-f8e0-42c4-93bd-56bf05521ede")
+	)
+	(bus
+		(pts
+			(xy 147.32 40.64) (xy 152.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3805aea1-ab8d-4ae9-8160-d3b4d98bc477")
+	)
+	(wire
+		(pts
+			(xy 134.62 83.82) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2e6295-22ae-42d3-8bdf-909d588caa6c")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c362717-417f-48d2-8088-84fd296e5e20")
+	)
+	(wire
+		(pts
+			(xy 129.54 109.22) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbb92cc-83f6-4c4b-a179-17597e03cdb7")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb14dbf-e963-4ba6-bbac-2dd768231050")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4030329f-660d-41a4-b9d1-26a3702d12db")
+	)
+	(wire
+		(pts
+			(xy 113.03 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41158910-a0e6-4d86-9ad5-600321733a73")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d5d640-7816-47f5-8b87-b832b499f500")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4490f932-36ad-4316-98ca-79536403bcb8")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450460fa-b650-431e-86f8-bfd030a00bba")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453880cd-8c5d-4467-aca5-617bd63f704f")
+	)
+	(bus
+		(pts
+			(xy 137.16 40.64) (xy 142.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4646af7f-c901-45c5-a25a-ea7331961374")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466443b8-8c59-4f73-a572-35c2b8093187")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c74b3b-9351-4e15-af3f-1ca6a03df994")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa23a53-b6b7-405a-a5cf-fdd19e958952")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab837c7-918d-4d62-800f-4121506c9b51")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 174.625 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c77ef1b-3664-4c05-8288-080ed1e1e02c")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f6cf57-e6a1-4e4d-8999-f3643241fa26")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fa6f7a-efd3-4b0f-a653-e065d6e3ce8b")
+	)
+	(wire
+		(pts
+			(xy 174.625 116.84) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f838a6-43ee-4736-b955-4faba6dc5408")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55221dc7-e31c-4486-8268-38c7c9aa272d")
+	)
+	(wire
+		(pts
+			(xy 170.18 140.97) (xy 170.18 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ff8af9-8d8f-4b98-93aa-5afeb7286804")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f467cd-01c0-4ac7-b8dd-8c6e23fd50da")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 149.86 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9a5a62-f4aa-49a3-be36-66f75ba7c406")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b71f6f0-be55-4c54-8cce-18ace0503a02")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cae8752-558b-44eb-817c-ad154083df17")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcf61c9-242a-4ef1-87e6-cae65174cdae")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df695ee-8f27-43ad-acf0-a9313c76285e")
+	)
+	(wire
+		(pts
+			(xy 112.395 121.92) (xy 112.395 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645bad3f-aeb1-459e-94d6-b1f9442080f8")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fdac5a-c5ae-4c22-b9a2-cb1cdccff56d")
+	)
+	(wire
+		(pts
+			(xy 118.11 146.685) (xy 135.255 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6527aa71-ac67-4ec4-8e03-ff94af015fd0")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66de3ed4-64cc-449a-912b-0954b8bd9b1a")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 142.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d15784-d357-4980-a214-77e076a5f301")
+	)
+	(wire
+		(pts
+			(xy 207.645 83.82) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a596951-b9e5-408b-ab8d-fcbd486441e3")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b441674-e4d6-44b2-b2f0-1065139fddb3")
+	)
+	(wire
+		(pts
+			(xy 236.855 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da30171-cb19-4c0d-8daf-e3f1abbe1ddf")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71579314-55a0-4b26-b810-4342b6377879")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73179ab3-c998-4f47-9c6f-32f6ae7f02b6")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742a4983-9309-4aec-9cda-77310b4cc3f5")
+	)
+	(bus
+		(pts
+			(xy 90.17 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c9fd4d-4f83-4e59-ab34-3f8b38595bad")
+	)
+	(wire
+		(pts
+			(xy 236.22 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75db182f-13d3-4b58-9df3-0dab1621d707")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b068ea-2a31-4b47-897e-588c3cc0575e")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783d6ef2-aa70-4f69-89f8-f9246df0c529")
+	)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a4b2b0-1436-4c51-a518-7f9d9d645ee7")
+	)
+	(bus
+		(pts
+			(xy 127 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0035b3-f2e5-44ce-bd57-eb1c3ddf031d")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8c03c5-ce7b-493a-92f5-e0d68dd82b41")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0c5283-8d12-4cb8-8e92-848a942ba1fc")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58bbd6-747a-4f24-8ced-a063270e63e0")
+	)
+	(wire
+		(pts
+			(xy 142.24 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6731e5-56c6-4b06-b5c5-b53ff07ef31d")
+	)
+	(bus
+		(pts
+			(xy 124.46 40.64) (xy 127 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f8022a-d762-4032-a0f2-61507db6033b")
+	)
+	(wire
+		(pts
+			(xy 87.63 52.07) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f09a18-41b6-42e8-b71b-b9fdc88632a5")
+	)
+	(bus
+		(pts
+			(xy 92.71 40.64) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8787f28c-33d8-4f86-b888-9a7cf3ceb20d")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f9ea2f-1f17-4d29-8a7f-395699369fda")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886982e7-d4a9-4b39-8d05-7bda3709a402")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b6855a-b0b1-404c-8c7e-240f7aaaea01")
+	)
+	(wire
+		(pts
+			(xy 174.625 121.92) (xy 174.625 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8906ea3c-eba2-4455-8e1e-72aceb83eec8")
+	)
+	(wire
+		(pts
+			(xy 134.62 88.9) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf56f2b-56cf-48eb-88b7-4ffc3949ab27")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d398e4a-6a81-4b11-aa34-f7008d6e6175")
+	)
+	(wire
+		(pts
+			(xy 154.94 43.18) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8628c4-8623-4a65-86e1-f2132aa46342")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df96b38-3bb7-4db4-9070-ff6d07369029")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914a0a3c-187a-4a80-966b-dfa72817fe30")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91caa1b4-a545-4b3c-bef9-ef533297f62b")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935fd726-250d-4806-be15-0ef5c38fa9d9")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939c78fc-fe45-4aa3-b029-f5285398080a")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a567ef-e1c1-4f96-9f52-e7a00ecc22e8")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c22f92-f7d8-4591-9f41-1aed5db2597c")
+	)
+	(wire
+		(pts
+			(xy 142.24 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d7a9c7-8987-4ec2-a351-fe911e27e255")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9869c100-f3b2-48ac-bbc5-d5686f967148")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992c35cf-3559-43ef-9261-6d9dc772acd2")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b19f7c-5678-4090-8f83-2783866afc8c")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3cad0c-57af-4ebe-b289-1bbb46c2bfc3")
+	)
+	(bus
+		(pts
+			(xy 157.48 40.64) (xy 162.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4711790-3ba0-41ef-94ce-c7b30e3d2232")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d4af54-7626-4451-b96a-7f0857a99532")
+	)
+	(bus
+		(pts
+			(xy 142.24 40.64) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67cf3f0-4a28-49b1-bb0b-0d73663bf515")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e9503a-739c-4963-9c44-6c96d99e973d")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76dfb47-278d-45e2-8cca-ae7332e42d10")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7931049-93ac-4bd8-845d-7aaa1511ad7f")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a978fcc7-e59c-4239-abef-2abd22e5e3e9")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98bf533-e07a-4bfa-be7b-076e4d96ace5")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98f7706-81bd-49ee-af4d-43386cb68a75")
+	)
+	(wire
+		(pts
+			(xy 113.03 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aded6e30-65f7-4164-bffd-bd49299643a9")
+	)
+	(wire
+		(pts
+			(xy 112.395 127) (xy 100.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af35a0e6-086a-4a2f-b123-5c8d790e9ccd")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 129.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b305d3ce-7c80-441e-aa71-24647b05f1d7")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b366117a-73ff-4275-82f0-84d049517fc1")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43a7e5a-11c4-42e3-be24-8c0d993ad88a")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48fb58e-9316-4ac3-b291-d2edccb98bb3")
+	)
+	(wire
+		(pts
+			(xy 206.375 96.52) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6adc2dd-5f47-4862-903b-55dc47ef29e5")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c8f8c1-ca5c-4072-99a2-37fd2a28e8c5")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78a977e-0c77-4f82-bb78-18215e5c6e33")
+	)
+	(wire
+		(pts
+			(xy 208.28 116.84) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b884f1bb-f35c-40b3-9d63-0aed7c9ec003")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9db1df6-241e-44bc-925a-dd777501ea19")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbea71a0-8a0e-4c15-ab0d-8fdaf061c15e")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a9bf27-def8-4f20-af44-765bb8624e1b")
+	)
+	(wire
+		(pts
+			(xy 137.16 96.52) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45a844b-6a0c-4ff5-9509-660a5a23d7ea")
+	)
+	(bus
+		(pts
+			(xy 82.55 40.64) (xy 82.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fd8923-86d7-422d-9251-a9e6ec60246c")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24499b3-7d1e-49fb-bd76-8f332c601976")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ca27fc-8de0-485b-9cd8-3af8f6f3e409")
+	)
+	(wire
+		(pts
+			(xy 236.22 79.375) (xy 236.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d5e1ee-e10d-4823-8f0f-ba21a937d3df")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5088f28-a056-4041-8ac9-6acd10b8e968")
+	)
+	(wire
+		(pts
+			(xy 149.86 73.66) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5807ea6-f49f-4016-bb1a-53fc119389f9")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62960c6-2d96-455d-977a-2dc0ce6185ae")
+	)
+	(wire
+		(pts
+			(xy 170.18 40.64) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88036fb-c087-41af-aa98-77b7157c8b81")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2e6b5c-4f20-4eee-8889-9b68c3cd1734")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df60abca-e6bd-484a-9a89-285ecf303149")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe32e6d-8ad9-412c-b488-b4cf650004d1")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ce3e4d-ff76-403d-af7f-aea4a5c37e32")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13263fa-ebbd-4bb5-a937-372c7f9ad1d2")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e261500e-dc34-4468-a172-597860eb6501")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fdfa25-80fa-4479-b02f-c075fa07b123")
+	)
+	(bus
+		(pts
+			(xy 87.63 40.64) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fe56b3-ccff-477e-ae8b-66d385f85e3c")
+	)
+	(bus
+		(pts
+			(xy 124.46 40.64) (xy 124.46 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e701a59f-5d2e-4b7d-8ad0-0e88b9f8512a")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e807c33c-61f2-4644-9d8d-6dee481ba50d")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed448842-c036-49c0-a156-21196e16185c")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed7b750-f19d-49c3-83f0-0e203d882267")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0afe897-cfdf-484d-86ed-ae0dd5e22edc")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1992359-0bfc-4065-80d0-bec1c3bc1ab6")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f223b7b3-d83f-4160-9d7e-157d07339d6a")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2502ecd-4813-4c1c-8f63-1cc60aacfe24")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57a1027-344e-4e0d-bec7-a256d88fbdf7")
+	)
+	(bus
+		(pts
+			(xy 132.08 40.64) (xy 137.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a234f0-2e75-45da-b7ed-ae989c485523")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c2824e-8584-4362-addf-a82c54aa4d87")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9998da4-ce4d-4916-a04b-fd1ed14ee276")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcfce1e-9feb-4f8c-9c4a-4311851f93bc")
+	)
+	(circle
+		(center 219.71 73.66)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid 02ab3f30-5292-4007-a300-675e65f23f57)
+	)
+	(circle
+		(center 222.25 76.2)
+		(radius 5.6796)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 40 255 8 1)
+		)
+		(uuid 6399a36d-1e76-4cca-974f-3dc2e81b69e0)
+	)
+	(circle
+		(center 224.79 73.66)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid eb36581e-ae66-4cc2-ae72-0b8d57b3e05f)
+	)
+	(arc
+		(start 225.425 78.74)
+		(mid 222.25 80.1599)
+		(end 219.075 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f3e27769-a0a6-4806-b834-0783616e2d62)
+	)
+	(label "KBD_~{Q1}"
+		(at 113.03 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "068911ed-8143-4854-b9c0-063b5a561d00")
+	)
+	(label "KBD_PA1"
+		(at 90.17 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0702f466-6c8b-4bc9-b3ef-21fe932d5ca2")
+	)
+	(label "KBD_~{Q5}"
+		(at 113.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07905492-65a7-4e7b-bfed-e17715e3d375")
+	)
+	(label "KBD_PB4"
+		(at 150.495 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0841f7d9-b8fe-4df1-8fcf-f00ebf65e062")
+	)
+	(label "KBD_PB5"
+		(at 154.94 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0930e4e6-fa62-48cf-bf61-6ed5098dd7d7")
+	)
+	(label "KBD_PA2"
+		(at 92.71 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0af9c31d-818f-4305-ac0b-543ad0b8b90b")
+	)
+	(label "KBD_PB0"
+		(at 140.335 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e80f0aa-c457-40bc-a715-516ce6139b94")
+	)
+	(label "KBD_~{Q2}"
+		(at 113.03 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10bc0a17-fcde-47dc-9fd2-4016b247cf82")
+	)
+	(label "KBD_~{Q1}"
+		(at 215.9 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cee6ba9-4997-4e58-a85e-2fdf38467f84")
+	)
+	(label "KBD_PA3"
+		(at 95.25 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c1f5093-85ac-47a2-9f05-a61e8048e6c4")
+	)
+	(label "KBD_~{Q4}"
+		(at 113.03 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "366107f4-efcc-42a2-a5c8-5518b4055a13")
+	)
+	(label "KBD_~{Q9}"
+		(at 215.9 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3db50c48-9d98-47a8-bef6-489b1541dd3c")
+	)
+	(label "KBD_PB2"
+		(at 215.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4dc2f211-4ffa-43b9-a35c-cf1fed3bc169")
+	)
+	(label "KBD_PB6"
+		(at 145.415 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b225ae-0b87-4a37-ba81-f53d514a06c4")
+	)
+	(label "KBD_PB7"
+		(at 228.6 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72c84b27-ab3d-41eb-8680-3837d39d166d")
+	)
+	(label "KBD_PB3"
+		(at 228.6 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "770cf5d2-660a-43e9-8656-6659739e6aad")
+	)
+	(label "KBD_~{Q7}"
+		(at 113.03 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "783cd9c7-f4ef-42c0-8f5d-a5a74f2d8d23")
+	)
+	(label "KBD_~{Q0}"
+		(at 228.6 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7845e1fd-0524-49c6-8033-a46e4950bbeb")
+	)
+	(label "KBD_PB1"
+		(at 228.6 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "797dc58c-1734-4136-86c6-bb8b512b8f80")
+	)
+	(label "KBD_~{Q8}"
+		(at 113.03 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b17630b-81ad-4c83-8dcd-480fbe79a852")
+	)
+	(label "KBD_PB0"
+		(at 129.54 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c1927e7-4f4e-4a98-9a33-4932d876b43b")
+	)
+	(label "KBD_~{Q3}"
+		(at 113.03 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d84670d-3637-46ab-a044-31e0eebaf8ba")
+	)
+	(label "KBD_~{Q6}"
+		(at 228.6 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d70f11-81a0-4fc5-813b-00c11ec4893e")
+	)
+	(label "KBD_PB2"
+		(at 139.7 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "990b531e-cef5-478e-9f60-b2add2101175")
+	)
+	(label "KBD_~{Q3}"
+		(at 215.9 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99d0b5f4-fe51-472e-a453-28cbdce58bd0")
+	)
+	(label "KBD_PB4"
+		(at 149.86 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1e9d269-458f-48a2-b2a0-4d74f31a811a")
+	)
+	(label "KBD_~{Q4}"
+		(at 228.6 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a32cdb-9509-4e9e-949a-0e5f8d3630b3")
+	)
+	(label "KBD_~{Q8}"
+		(at 228.6 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa668ce1-9659-4e35-9d6c-25fe6a7e2416")
+	)
+	(label "KBD_~{Q5}"
+		(at 215.9 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad9285b0-3d56-4364-b1fc-6eb51417ea8a")
+	)
+	(label "KBD_PB0"
+		(at 215.9 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aefa1a7a-3684-497f-a9e4-c45acc3e667c")
+	)
+	(label "KBD_~{Q0}"
+		(at 113.03 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af1f855c-e50f-47e4-8d52-2c5cd3329dfd")
+	)
+	(label "KBD_PB7"
+		(at 165.1 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afb1e63d-e103-4234-a64c-820d383c593f")
+	)
+	(label "KBD_~{Q9}"
+		(at 113.03 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3cdf4f8-cb47-4cb5-a359-f502c6e2d816")
+	)
+	(label "KBD_PB3"
+		(at 144.78 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6aade80-955d-42f8-9be6-74a1ad08f72e")
+	)
+	(label "KBD_PB1"
+		(at 137.795 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c52b6fac-4a66-4bcb-a408-8f50df1e6354")
+	)
+	(label "KBD_~{Q6}"
+		(at 113.03 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7c20258-61f8-4b64-8512-5f3b1e889acd")
+	)
+	(label "KBD_PB6"
+		(at 160.02 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d01ceb60-7771-4d58-aeee-b2be8648072f")
+	)
+	(label "KBD_PB2"
+		(at 135.255 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d35e2694-294b-4554-9826-34dae3fc9fbd")
+	)
+	(label "KBD_~{Q2}"
+		(at 228.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db7e9ea3-4d7e-4fd4-b88c-08fe69fc12c4")
+	)
+	(label "KBD_~{Q7}"
+		(at 215.9 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfbb479a-9108-4ef6-a3c5-23926b409d89")
+	)
+	(label "KBD_PB5"
+		(at 228.6 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e88c9ed0-649d-4594-bdef-d1f874465f15")
+	)
+	(label "KBD_PB5"
+		(at 147.955 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef961ac8-295a-4691-8f8d-90613e436510")
+	)
+	(label "KBD_PB7"
+		(at 142.875 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0dff972-99f4-469c-b6a2-d03c1914bcd9")
+	)
+	(label "KBD_PB1"
+		(at 134.62 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f152c760-ea05-4bc9-85d6-5c3221e019fe")
+	)
+	(label "KBD_PB3"
+		(at 153.035 136.525 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5fd15d8-e65e-473e-827e-ed2f98db8a90")
+	)
+	(label "KBD_PB6"
+		(at 215.9 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa295a9d-bc3e-4bbd-a31b-4000c9962915")
+	)
+	(label "KBD_PA0"
+		(at 87.63 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc4e02df-aa95-41dc-ab30-ce3007678038")
+	)
+	(label "KBD_PB4"
+		(at 215.9 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe288442-7824-423a-9e8f-a66a2807b349")
+	)
+	(global_label "KBD_PC6"
+		(shape input)
+		(at 170.18 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "308ed2de-e005-4e9b-b6da-6e68157a115e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 29.1277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LS_SND"
+		(shape input)
+		(at 238.76 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e22c1e-a4d0-4b51-b33b-ef69b688d48e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.7604 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KBD_PC6"
+		(shape input)
+		(at 206.375 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ea54a6a-b39c-406a-b46f-12a928f01a8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8627 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "KBD_PB[0..7]"
+		(shape input)
+		(at 124.46 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de58e63a-4331-4961-95fc-1518251d44bb")
+	)
+	(hierarchical_label "KBD_PA[0..3]"
+		(shape input)
+		(at 82.55 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0ea590e-be83-4435-853a-a6b970f004a4")
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014fcc8f-0615-4514-9b4a-3cd2a4c7ab1d")
+		(property "Reference" "KB25"
+			(at 124.6 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lock"
+			(at 125.73 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc8768d0-fdc5-4adf-bc54-5e817475d863")
+		)
+		(pin "2"
+			(uuid "aa9b98a7-8c61-453e-b3a4-d59da764e621")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a3e4cb-1635-4bc0-bac4-194fa9a04c9a")
+		(property "Reference" "KB19"
+			(at 124.6 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LR"
+			(at 125.73 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127e9ace-8502-4adf-9d9d-5a2e1dfd1a81")
+		)
+		(pin "2"
+			(uuid "d04281ad-2724-4a88-a7fd-01c3087ec4fc")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053a3ed4-29f1-4bf2-8b96-8e91a244260f")
+		(property "Reference" "KB54"
+			(at 150 109.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S"
+			(at 151.13 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a65816-3c7b-42b7-a98c-8c27f8fa06d2")
+		)
+		(pin "2"
+			(uuid "8b28323b-5e1e-46fd-9845-3fc4cd43cecb")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06274a86-71b1-4d56-abc0-3ca8d43bd3ed")
+		(property "Reference" "KB34"
+			(at 139.84 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B"
+			(at 140.97 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2661de-8e7c-49ab-9851-fdc9baf958dd")
+		)
+		(pin "2"
+			(uuid "f3db0ba2-3b79-4395-9c1e-8f9478cca1eb")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164e8100-4d40-4ab7-85ff-7bf28350b4d0")
+		(property "Reference" "KB5"
+			(at 144.92 68.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q"
+			(at 146.05 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b8afbd-f13f-4ce1-baa6-a7b415d9fdfa")
+		)
+		(pin "2"
+			(uuid "e9e34c2e-f79f-48ed-80ba-1279008ac773")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea39d53-ce0b-4e4e-9c10-28900abbbd4b")
+		(property "Reference" "KB31"
+			(at 124.6 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Up"
+			(at 125.73 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea3af2b7-c164-42e4-af63-a04486ec92d6")
+		)
+		(pin "2"
+			(uuid "a8602a84-8128-4389-a6b2-a4af5a48098c")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f32fdc2-2c9d-46d1-86b3-122a43081a39")
+		(property "Reference" "KB14"
+			(at 129.68 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 130.81 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b145ab5-0599-4e3c-ae7d-b9b8e49c6627")
+		)
+		(pin "2"
+			(uuid "a11e62b3-83bd-4cdd-9314-62be0728dfab")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f71cb91-ac26-40ea-9e1f-2860e1f01d5f")
+		(property "Reference" "KB41"
+			(at 144.92 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "K"
+			(at 146.05 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4378396-6ab6-46e2-b965-07eecb74c402")
+		)
+		(pin "2"
+			(uuid "97c61eec-395a-40e9-a6a6-1d1e37fc40c2")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22e24d69-e60d-49b7-a6a8-bc1beb316aa0")
+		(property "Reference" "KB52"
+			(at 139.84 109.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "/"
+			(at 140.97 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e49b3f-c428-4e36-ab28-475aec8ba171")
+		)
+		(pin "2"
+			(uuid "65e5b383-2649-43c4-bec7-cacd775f577f")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2491623d-3115-4f9f-be27-edbb3343cd0e")
+		(property "Reference" "KB17"
+			(at 144.92 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "O"
+			(at 146.05 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4999de47-b3d1-49b8-8f9e-db8078402034")
+		)
+		(pin "2"
+			(uuid "b0871a9a-0244-4c46-91da-677e93c4e6dd")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 167.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25c101fe-92f7-4e1c-aa21-2a4693c4bf57")
+		(property "Reference" "KB69"
+			(at 165.24 119.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Rpt"
+			(at 166.37 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7129833-edb7-41b8-840f-806328144c83")
+		)
+		(pin "2"
+			(uuid "04c45670-4994-4ee7-9fbb-9d63dcf59cae")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d2fb63-1c5e-403d-ac1f-bcaf0349bc3f")
+		(property "Reference" "KB39"
+			(at 134.76 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7"
+			(at 135.89 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b5e914-be8e-4a74-8dce-bb88d2082d2a")
+		)
+		(pin "2"
+			(uuid "7038dca1-07f7-4d77-969f-f66386ea3e5e")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 207.645 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d73ae3-9186-48a1-9a7b-970acca50bba")
+		(property "Reference" "#PWR043"
+			(at 207.645 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.645 79.6869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.645 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.645 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 207.645 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12f3551a-a316-4525-8cfc-24fa7459fff5")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b34d20-caf2-444e-8cbe-5c3fc983b380")
+		(property "Reference" "KB28"
+			(at 139.84 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 140.97 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e7a228d-a7e9-496c-b137-2268a36bc995")
+		)
+		(pin "2"
+			(uuid "4d76cd65-fe3e-4bd7-b30a-7c40195d9580")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384b24dd-6691-4f43-bf87-0314b5740de7")
+		(property "Reference" "KB2"
+			(at 129.68 68.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 130.81 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453c4d1d-0be7-412b-afd7-3cdd1b5ca4f8")
+		)
+		(pin "2"
+			(uuid "699c1258-228c-4cd5-a305-3651e1d511d9")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ff563c-02cf-417b-98c1-afdf514993f7")
+		(property "Reference" "KB6"
+			(at 150 68.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Esc"
+			(at 151.13 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1150749-f506-4cca-9156-13d65174ee31")
+		)
+		(pin "2"
+			(uuid "015a222b-8925-46fa-a8ee-ee6deed0ffda")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f3c2c5c-fd3b-4e53-bb98-cec63a560ee0")
+		(property "Reference" "KB9"
+			(at 134.76 73.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ","
+			(at 135.89 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dfa557a-1077-4590-b478-44f42f7a89cb")
+		)
+		(pin "2"
+			(uuid "a51898cc-ae5a-4fc5-b875-539e962ed584")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "404d2954-f81a-479a-b7b6-663934c9ab84")
+		(property "Reference" "KB49"
+			(at 124.6 109.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "["
+			(at 125.73 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88053d91-8f8b-4124-a8fc-8f26e979f751")
+		)
+		(pin "2"
+			(uuid "601b4b02-ae25-4755-9b67-21696a3e426e")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4218294f-d0e3-47c4-9137-914133b6036e")
+		(property "Reference" "KB46"
+			(at 139.84 104.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "@"
+			(at 140.97 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20972542-ac92-4321-a9e5-37836c98c1a4")
+		)
+		(pin "2"
+			(uuid "7583c659-553d-4f8f-96af-19ae78035024")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4928a65f-67c8-4e29-adf7-b1af1cfc3bd7")
+		(property "Reference" "KB30"
+			(at 150 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W"
+			(at 151.13 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63db3227-6849-4cba-911d-5c9187dd079e")
+		)
+		(pin "2"
+			(uuid "7b907a02-a9b2-46e9-b085-e4a5d9d110d1")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d72084b-b3fa-4960-ad86-9e07681f5411")
+		(property "Reference" "KB24"
+			(at 150 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "X"
+			(at 151.13 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2387c099-8ee1-41dd-9249-37f30500a5ba")
+		)
+		(pin "2"
+			(uuid "c1461041-8afd-4a95-9d71-43954603a5b1")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 95.25 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5167d359-c914-465e-b725-2e2474073277")
+		(property "Reference" "KC1"
+			(at 91.694 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KeyboardGround"
+			(at 89.662 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:KeyboardGround"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 95.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02fb6597-b49b-4a5c-82de-1483d0c53f48")
+		)
+		(instances
+			(project ""
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54863343-b547-4c62-8c3b-e6844521b64a")
+		(property "Reference" "KB38"
+			(at 129.68 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ret"
+			(at 130.81 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d69c09-d91a-45b9-a170-e21859e2b99d")
+		)
+		(pin "2"
+			(uuid "a54caa16-2330-42a3-8b26-fbb2e566fd9d")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a72d43-3675-4515-98fa-a63329779e94")
+		(property "Reference" "KB4"
+			(at 139.84 68.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G"
+			(at 140.97 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bccbc467-7186-4f1e-a594-bd32dff78c1c")
+		)
+		(pin "2"
+			(uuid "0c50c4da-07ae-4777-aa09-5f3e590b6ea7")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55667c4b-0c80-402f-9757-0b0985a28a38")
+		(property "Reference" "KB18"
+			(at 150 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Y"
+			(at 151.13 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e205bef9-232f-4215-af67-edc930f23426")
+		)
+		(pin "2"
+			(uuid "241300b1-5042-412f-bf6f-647213613d4d")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55acccf9-0f78-4e54-a7bf-5f0d58e8a017")
+		(property "Reference" "KB33"
+			(at 134.76 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8"
+			(at 135.89 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5b3f5f-6ab4-447c-a6f4-8d4a7d010bf9")
+		)
+		(pin "2"
+			(uuid "9b154741-2209-4e20-b655-4746fb81fa5c")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57258401-0005-4e2c-8441-d9691dd00a28")
+		(property "Reference" "KB8"
+			(at 129.68 73.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2"
+			(at 130.81 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70ca41a9-488a-41f6-ad23-b50f58e40f2c")
+		)
+		(pin "2"
+			(uuid "4e470318-1d8c-457f-a007-78d1395d077d")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 162.56 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b01be3-9ab1-43d9-b686-6119fea5261b")
+		(property "Reference" "KB68"
+			(at 160.16 119.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shift"
+			(at 161.29 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ffef7a-804b-4086-b7c3-cbdb6c0d6934")
+		)
+		(pin "2"
+			(uuid "d47a29ba-8229-462b-aafd-125d58d597ff")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59bbb748-54ee-4943-8e85-82d9205a2a5a")
+		(property "Reference" "KB16"
+			(at 139.84 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "E"
+			(at 140.97 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7dcebe9-38d8-4329-b9a6-973b3e1d2c2e")
+		)
+		(pin "2"
+			(uuid "a30e76c3-d642-4c5f-a540-bbde97d31de5")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c2e956f-4478-4b88-9aea-3505881387f9")
+		(property "Reference" "KB21"
+			(at 134.76 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ":"
+			(at 135.89 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c966a337-23e8-43e9-9087-5881e663869b")
+		)
+		(pin "2"
+			(uuid "bc5a15a7-3cf6-4f4c-aa01-f2708edbbb0b")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63965664-2c72-4945-ba61-26b4750d01e5")
+		(property "Reference" "KB51"
+			(at 134.76 109.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5"
+			(at 135.89 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fa5615b-fdce-4a98-bd0a-ccb2cce3b097")
+		)
+		(pin "2"
+			(uuid "49caa1ca-c4cd-43cf-9172-3e713699871b")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.855 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "647b0188-e355-41af-8a4c-82da669f73ee")
+		(property "Reference" "#PWR09"
+			(at 236.855 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.855 115.8931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.855 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.855 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.855 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80152e92-ac06-4069-b4a6-00b6e9075e82")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x12_Odd_Even")
+		(at 220.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64bda189-cfaa-4a7d-9502-359dee237915")
+		(property "Reference" "J3"
+			(at 240.538 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PS2_KB_Hdr"
+			(at 245.11 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "1d3a48a1-cef8-406f-a5a5-c485d7003632")
+		)
+		(pin "11"
+			(uuid "80f5f0a8-d363-44e8-8150-9da7d94d2f65")
+		)
+		(pin "9"
+			(uuid "99b4f4ce-d481-4c32-a873-6b6f09e68249")
+		)
+		(pin "18"
+			(uuid "751e39b8-5527-4263-bf0d-7632bdcfb119")
+		)
+		(pin "13"
+			(uuid "6e0d6830-8e59-49df-8f1c-80e26c57f3fa")
+		)
+		(pin "4"
+			(uuid "64222ec4-c83b-4fcc-8090-34d6f5ed5eb7")
+		)
+		(pin "15"
+			(uuid "56c24818-b725-4e11-a8bf-36d7f6490f4a")
+		)
+		(pin "6"
+			(uuid "8feedf14-6123-4fa6-b88d-7b19ac36c0ac")
+		)
+		(pin "5"
+			(uuid "5fdefd13-be72-46c9-af74-07acc88f362d")
+		)
+		(pin "21"
+			(uuid "db0408e9-9ce8-400c-bc1b-18aaf5d88a42")
+		)
+		(pin "16"
+			(uuid "ca04c63d-9aae-4754-b3c7-c5ccf7428716")
+		)
+		(pin "19"
+			(uuid "d14df2cb-4f27-4898-a04f-809a76bd09cc")
+		)
+		(pin "7"
+			(uuid "8eb1ea57-21a5-4399-b90c-7b0c8fa3cd50")
+		)
+		(pin "8"
+			(uuid "0ca6a097-fd9e-46c3-9a6e-f880529f7a9c")
+		)
+		(pin "14"
+			(uuid "884eefa9-b6ad-47a2-afc3-e0867a0fb81b")
+		)
+		(pin "1"
+			(uuid "3d5d8f77-cbd5-4540-a0c7-68de06e0c5a9")
+		)
+		(pin "10"
+			(uuid "da4d9990-d690-4d5f-8419-b36f04297a71")
+		)
+		(pin "24"
+			(uuid "2cac62c5-b849-4285-a454-0bc42310bb15")
+		)
+		(pin "22"
+			(uuid "473987d0-820a-4a65-863e-981f87c81834")
+		)
+		(pin "17"
+			(uuid "71047c45-4915-4af8-b328-c463ba4fff3b")
+		)
+		(pin "12"
+			(uuid "60ab2d0e-5ee8-4c0c-b306-fd831608fc0f")
+		)
+		(pin "2"
+			(uuid "27507f7b-1c57-4f44-a8d2-565f470c8680")
+		)
+		(pin "20"
+			(uuid "b8585f74-76ae-451a-a1b8-24c928fdf833")
+		)
+		(pin "3"
+			(uuid "51362e17-d4fa-4525-b3f6-006388e9e253")
+		)
+		(instances
+			(project ""
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6707a76f-7a56-44ff-af01-5e4eb0c1787c")
+		(property "Reference" "KB53"
+			(at 144.92 109.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I"
+			(at 146.05 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a842877-afb0-4490-b5e4-aa2c3f193f98")
+		)
+		(pin "2"
+			(uuid "9d42a7d8-20b0-44ff-845f-dbafeb027f8c")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 118.11 146.685 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c3cbd1-ac17-4d6e-913b-f90fca634654")
+		(property "Reference" "#PWR060"
+			(at 118.11 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 142.5519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 118.11 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e0314a-7e2f-4a35-a970-c5c4a856bd5a")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc12333-660d-4071-b2f1-e10f20da2eb7")
+		(property "Reference" "KB27"
+			(at 134.76 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9"
+			(at 135.89 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d90ed9e-10c6-4326-b691-3e02d5aaf472")
+		)
+		(pin "2"
+			(uuid "a75de5b2-2c52-441a-b548-03a6a62fa943")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7127c90a-3243-4d0b-8290-4ec624252b83")
+		(property "Reference" "KB22"
+			(at 139.84 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 140.97 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e511ba6-00f1-4513-9527-5582a87e726c")
+		)
+		(pin "2"
+			(uuid "288787b5-5bec-4d66-8f40-3c1722fb274a")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "778f0a3d-ed46-4dbd-a128-402496a47428")
+		(property "Reference" "KB40"
+			(at 139.84 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A"
+			(at 140.97 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a26eb5c-e9f4-4812-8c58-9b3f361606bf")
+		)
+		(pin "2"
+			(uuid "ba904897-998d-4eed-bc4d-cb51db5fac12")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbf32b2-f0d6-43e0-b548-36d3916c78af")
+		(property "Reference" "KB48"
+			(at 150 104.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T"
+			(at 151.13 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa74450-bb20-48af-ae7d-b97316361ec3")
+		)
+		(pin "2"
+			(uuid "bcea0dad-e2dc-47d0-9542-a63a6bf6d0eb")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83843718-7f79-4d31-b844-4fc258c79ba3")
+		(property "Reference" "KB58"
+			(at 139.84 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "."
+			(at 140.97 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb859524-934a-45e6-86da-14037c4b0fee")
+		)
+		(pin "2"
+			(uuid "4e557b0b-15e8-4997-ae2f-d8a1680e7b61")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "859973c0-2a38-408c-9e1a-7478dfe5463d")
+		(property "Reference" "KB3"
+			(at 134.76 68.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-"
+			(at 135.89 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13090191-7911-43ba-8bd9-e43691278e38")
+		)
+		(pin "2"
+			(uuid "81ee6060-6d50-46fc-b147-cec211307dfe")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0dc7d9-d55b-4a61-bf7c-955ef38a5685")
+		(property "Reference" "KB47"
+			(at 144.92 104.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "J"
+			(at 146.05 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f36c1d10-322c-4410-adb8-ca4f8b5af0a4")
+		)
+		(pin "2"
+			(uuid "ef11d400-44bc-4aef-a308-b06d5cf0524d")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7b7dbe-4974-4b19-8b2e-1e7a833cdc25")
+		(property "Reference" "KB59"
+			(at 144.92 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 146.05 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95863045-4c4c-4965-9e34-369d77fdd277")
+		)
+		(pin "2"
+			(uuid "ef9f5027-b5eb-49eb-99f4-9463b8d92ddb")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 142.24 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9266b2cc-f375-4458-aaf7-0cffcf705eeb")
+		(property "Reference" "KB10"
+			(at 139.84 73.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "F"
+			(at 140.97 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c3ed918-d030-430f-bfef-4cdaa8ac91ca")
+		)
+		(pin "2"
+			(uuid "129ae100-bd79-4638-9f14-4dfbca99d637")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9814b55a-0350-4321-b21c-7b2b89f97f7f")
+		(property "Reference" "KB29"
+			(at 144.92 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M"
+			(at 146.05 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ba4363-a3b2-4027-bfcd-206f4b692ef6")
+		)
+		(pin "2"
+			(uuid "8afe5bd0-38d3-441a-83d6-18bea566db95")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98579423-9309-402a-9faf-fa863de6d0f7")
+		(property "Reference" "KB37"
+			(at 124.6 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "]"
+			(at 125.73 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6c2baa-a3a8-4263-bc1b-ab3259945a4e")
+		)
+		(pin "2"
+			(uuid "1c085dcb-108d-43f2-a0e4-333eb6cc08b5")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9b6118-d7ee-4cc1-80e0-c202c6c55460")
+		(property "Reference" "KB42"
+			(at 150 99.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U"
+			(at 151.13 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0439167-d53e-44a5-92f5-6921bcbfaabe")
+		)
+		(pin "2"
+			(uuid "385090a6-bf65-4be4-8c7f-4377ecdbc010")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a305ff64-2b47-462c-83af-4f7491c4a86f")
+		(property "Reference" "KB32"
+			(at 129.68 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cpy"
+			(at 130.81 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61971726-c6f9-42be-ae56-816da3435d39")
+		)
+		(pin "2"
+			(uuid "4463e136-8c3b-4962-afe6-24cffc38d9d4")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3c1ddc2-03d7-4c1a-b7f2-82903175b9d8")
+		(property "Reference" "KB23"
+			(at 144.92 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N"
+			(at 146.05 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "643184b5-75b2-4b19-817b-6b9145c880cb")
+		)
+		(pin "2"
+			(uuid "6fc3a3f5-e534-4a9c-894b-8585122bcb6d")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a78832c3-601f-4abc-b5a9-943452f85c3b")
+		(property "Reference" "KB55"
+			(at 124.6 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spc"
+			(at 125.73 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41bd4525-dde7-41c9-87df-2619814234d9")
+		)
+		(pin "2"
+			(uuid "e8fd546a-9e4c-490c-9706-10cd7b85a52b")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2894f8a-e424-4fa1-a058-f903e0250d8c")
+		(property "Reference" "KB43"
+			(at 124.6 104.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "\\"
+			(at 125.73 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fbefa2a-2c96-463e-bf17-3bd3cf771e13")
+		)
+		(pin "2"
+			(uuid "0c90a88a-5bfa-4ad5-b558-533f3c900b6e")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f9f906-b2d2-43e6-8582-327646fb7337")
+		(property "Reference" "#PWR031"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 120.9731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e87fb76a-4e7b-46cf-a033-e3d19728f3fb")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b63fd9fe-05d2-4ca4-a2a1-156ea20cf324")
+		(property "Reference" "KB57"
+			(at 134.76 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4"
+			(at 135.89 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985a1492-a1ce-48dd-89de-03c20143fb5f")
+		)
+		(pin "2"
+			(uuid "7f5d5db2-45e8-46d5-b3e0-6c598e014106")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b97691ed-3b6b-4d1d-9e9a-6c23f5f2352a")
+		(property "Reference" "R25"
+			(at 167.894 139.065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4K7"
+			(at 170.18 139.065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 171.958 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "https://uk.farnell.com/multicomp-pro/mccfr0w8j0472a20/carbon-film-resistor-4-7kohm-125mw/dp/1128937"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "821368e6-bbcf-4e15-9e7f-49c8b9f4c2a0")
+		)
+		(pin "2"
+			(uuid "a01046e0-e66f-4628-9607-27b7b653400f")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a1a310-3161-436f-9fcd-a2c8f672cbe5")
+		(property "Reference" "KB45"
+			(at 134.76 104.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6"
+			(at 135.89 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e5d3e3-c806-400e-8547-a612d60224eb")
+		)
+		(pin "2"
+			(uuid "9c683c81-628f-4b4d-918e-6bcba2a8416e")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 236.22 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7538679-b036-4a96-a2d0-71ff2b541a24")
+		(property "Reference" "#PWR062"
+			(at 236.22 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 75.2419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 236.22 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bcd321e-8ee2-4296-af26-7f6f4ea6f8f0")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2307cb9-f352-404b-a2ef-122040290605")
+		(property "Reference" "KB11"
+			(at 144.92 73.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P"
+			(at 146.05 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6744530-313b-4f8a-bca2-143ed96de8a2")
+		)
+		(pin "2"
+			(uuid "ad30eb09-7fdf-4f44-8c54-cfc9e8fd8fbd")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2866d1c-66c7-4f55-ab9d-1241fe47f386")
+		(property "Reference" "KB12"
+			(at 150 73.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Z"
+			(at 151.13 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001bd1d5-af18-471e-9fa8-59bc2869fa58")
+		)
+		(pin "2"
+			(uuid "15caa330-ae16-4818-8dcf-6c390128c138")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network08")
+		(at 145.415 141.605 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c56db7-d4a2-4d96-bc5a-3d936869c15e")
+		(property "Reference" "RN1"
+			(at 133.223 140.1388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Network08"
+			(at 133.223 142.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 157.48 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 145.415 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+			(at 145.415 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a80a415d-8ec2-4ae5-a975-bf74358e7139")
+		)
+		(pin "7"
+			(uuid "9087f1d5-eb61-4cff-b8f4-4cf5a9e10998")
+		)
+		(pin "3"
+			(uuid "111b7fff-07a0-477e-b915-57ea0fbf39b9")
+		)
+		(pin "5"
+			(uuid "061e0cdd-a421-4ca7-86dd-c2ca022b477f")
+		)
+		(pin "8"
+			(uuid "366fb4ee-3603-4c9b-90b9-d7ecf0bd8229")
+		)
+		(pin "6"
+			(uuid "8e3f6295-3cc0-40dc-af03-5116dc2cbd06")
+		)
+		(pin "9"
+			(uuid "d5a62bb1-2793-4e01-ac35-fbff22910b5d")
+		)
+		(pin "4"
+			(uuid "6bc68c36-59e8-435a-8bfd-6b4c70d80ad0")
+		)
+		(pin "1"
+			(uuid "2720ef82-5be5-49a3-98a7-4e2d899cbd5d")
+		)
+		(instances
+			(project ""
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 127 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e90e9c-5528-4c1b-8a26-31b04a54a1f8")
+		(property "Reference" "KB13"
+			(at 124.6 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UD"
+			(at 125.73 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1be6afce-8953-4f64-8b98-6af10c2cbde0")
+		)
+		(pin "2"
+			(uuid "30650b41-d166-4a09-9e37-293ddb2faec7")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db639a4a-366c-435d-b276-b5eda10b7dac")
+		(property "Reference" "#PWR058"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 131.1331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2de776d2-84a4-46e1-a8fb-2add0b218203")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 137.16 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc025eaa-a8ce-4667-98e8-347bfa800af9")
+		(property "Reference" "KB15"
+			(at 134.76 78.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ";"
+			(at 135.89 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ab72a5-c8f8-4579-b30f-f74f65a7187d")
+		)
+		(pin "2"
+			(uuid "0f36d48e-8ade-47ac-8a20-c5516c4faf6a")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 100.33 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee36eda-2d7d-4891-9c7f-7e20da8a5f6f")
+		(property "Reference" "#PWR059"
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 50.4769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6526a75f-8f24-46ab-85e0-2fff2bb480ed")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:7445_BCD_Atom_Keybd")
+		(at 90.17 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40c0250-e681-4fea-bbf0-acd18e32fcf8")
+		(property "Reference" "IC26"
+			(at 81.788 89.5928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7445"
+			(at 81.788 92.0171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ec5c42a2-3126-475d-86c9-c3eccef5af31")
+		)
+		(pin "10"
+			(uuid "bc887866-4cc8-48c4-a732-ccc28fe28904")
+		)
+		(pin "13"
+			(uuid "f6044b65-81eb-4e1b-ace8-a915b7ee2fe9")
+		)
+		(pin "14"
+			(uuid "01e259b8-2103-4129-84b7-ee12cfd7e35b")
+		)
+		(pin "3"
+			(uuid "86fa3a0f-b555-47f8-be10-1d8d25c3d068")
+		)
+		(pin "16"
+			(uuid "b476a8b7-db95-4c4f-9229-c0bd06599fb8")
+		)
+		(pin "8"
+			(uuid "eb4fef31-007d-4628-891e-1ef243417f1d")
+		)
+		(pin "11"
+			(uuid "86c99cce-90df-4943-bccf-87bd151b531e")
+		)
+		(pin "6"
+			(uuid "0fa766ad-b2f9-45e5-bf1c-893dc51e1492")
+		)
+		(pin "4"
+			(uuid "509259df-128f-494d-9330-30e36f1cb1b1")
+		)
+		(pin "15"
+			(uuid "ab22ca13-cc08-4c29-ae9f-dfb575cf8cd5")
+		)
+		(pin "1"
+			(uuid "f04a4726-1b8d-4151-9046-6a3106d0fb17")
+		)
+		(pin "9"
+			(uuid "dcef916f-3a10-4348-ab16-9c34e17e06db")
+		)
+		(pin "2"
+			(uuid "41dc3ad5-7d01-4cb6-9d8f-fef7b0590261")
+		)
+		(pin "12"
+			(uuid "996a0a8c-3f30-4ee1-8472-42c52e396005")
+		)
+		(pin "5"
+			(uuid "bbdf6d17-07c5-4356-a440-7e193c2d4e62")
+		)
+		(instances
+			(project ""
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "IC26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 162.56 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cd89e9-d2eb-43a1-a37e-12fcd1dbae87")
+		(property "Reference" "KB70"
+			(at 160.16 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shift"
+			(at 161.29 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb483891-a95c-4daa-9671-524ad40eef73")
+		)
+		(pin "2"
+			(uuid "6076de05-2172-4440-8987-f6501fdbe1e2")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58dbfc1-76bb-428d-8fff-8f745224d6b5")
+		(property "Reference" "KB26"
+			(at 129.68 89.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Del"
+			(at 130.81 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebfb819f-ab40-4ff3-afd0-8206a95263b0")
+		)
+		(pin "2"
+			(uuid "726892c3-b829-47f8-b436-204606d7d490")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 147.32 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f64a8132-0fa3-415a-8e5d-71ba07df2592")
+		(property "Reference" "KB35"
+			(at 144.92 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 146.05 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a82c213-d4d0-44e7-8001-3bca3e03691a")
+		)
+		(pin "2"
+			(uuid "2b786a08-468b-4ad6-9ff6-c3594f4e70d6")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 157.48 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f798560a-ca5c-499a-a8dc-a564ed457a20")
+		(property "Reference" "KB67"
+			(at 155.08 119.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ctrl"
+			(at 156.21 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce1f26f-9739-49a1-b0b0-1217381b7660")
+		)
+		(pin "2"
+			(uuid "f4684843-b98a-47cd-850d-9fa1901a0184")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91ddfdb-f93a-4b87-8320-fb1eec01248e")
+		(property "Reference" "KB36"
+			(at 150 94.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V"
+			(at 151.13 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4422ed55-79c3-4324-bb7a-264054ce52a5")
+		)
+		(pin "2"
+			(uuid "d54b3ea3-8ae6-449f-84a6-54d898a40638")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 132.08 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd53ebec-b0a2-4ad8-84b8-8c6849d583bc")
+		(property "Reference" "KB20"
+			(at 129.68 84.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c711097a-1ae2-4a7e-8b42-ad5b5118d01a")
+		)
+		(pin "2"
+			(uuid "b6f58ee9-c80f-48d5-aab3-a0e83341b943")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "John Atom Components:Atom_Keyswitch")
+		(at 152.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcfd00f-57bd-442e-8aeb-e4f4f064e988")
+		(property "Reference" "KB60"
+			(at 150 114.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.67 0.67)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 151.13 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JW Footprints:AtomKeyswitch"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d0ccf3-b0cb-467d-bc8d-8b2cb59a1d77")
+		)
+		(pin "2"
+			(uuid "c6abdadf-b24a-4163-8ba9-364c22f37f35")
+		)
+		(instances
+			(project "AtomV5Board"
+				(path "/061591e0-fc5a-4227-9cb7-53fd8dca3981/41b80dc0-2191-428c-bee0-e1c8383431f1"
+					(reference "KB60")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
